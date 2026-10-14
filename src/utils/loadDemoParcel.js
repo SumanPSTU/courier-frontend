@@ -1,0 +1,30 @@
+export function loadDemoParcel({ setForm, setError }) {
+  setForm({
+    senderName: 'Rahim Chowdhury (Dhaka Fashion Hub)',
+    senderPhone: '01712345678',
+    pickupAddress: 'House 42, Road 11, Block D, Banani',
+    pickupDistrict: 'Dhaka',
+    pickupArea: 'Banani',
+    pickupWindow: 'AFTERNOON',
+    recipientName: 'Tasmia Sultana',
+    recipientPhone: '01898765432',
+    recipientAltPhone: '01911223344',
+    deliveryAddress: 'Holding 88, Agrabad Commercial Area, Near GEC Circle',
+    deliveryDistrict: 'Chattogram',
+    deliveryArea: 'Agrabad C/A',
+    deliveryNotes: 'Call 30 mins before arrival, deliver to reception desk.',
+    description: 'Handcrafted cotton garments and accessory package',
+    category: 'CLOTHING',
+    weightKG: '2.5',
+    lengthCM: '30',
+    widthCM: '20',
+    heightCM: '15',
+    serviceSpeed: 'PRIORITY',
+    paymentMethod: 'COD',
+    codAmount: '2450',
+    openBoxVerification: true,
+    fragileSticker: false,
+    smsNotification: true,
+  });
+  setError('');
+}
